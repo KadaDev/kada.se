@@ -4,6 +4,7 @@
   "description": "Parallax made with help from http://keithclark.co.uk/articles/pure-css-parallax-websites/",
   "main": "index.js",
   "scripts": {
+    "minify": "html-minifier -c minify.conf index.html > mini.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
